@@ -28,6 +28,19 @@ struct ContentView: View {
                 
                 Spacer()
             }
+            
+            // Layer 4
+            // What could you place this VStack inside, and then what would you need to add, to push the VStack to the right?
+            VStack {
+                
+                Image("logo-example")
+                    .resizable()
+                    .scaledToFit()
+                    .clipped()
+                    .frame(width: 100, height: 100, alignment: .center)
+                
+                Spacer()
+            }
 
         }
     }
