@@ -15,7 +15,7 @@ struct ContentView: View {
             Color.white
             
             // Layer 2
-            Color.red
+            Color("maroon")
                 .padding()
             
             // Layer 3
